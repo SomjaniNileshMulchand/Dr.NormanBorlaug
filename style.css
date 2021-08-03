@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: serif;
+    background-color: #eee;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+}
+.header{
+    padding-top: 3rem;
+    text-align: center;
+}
+#div{
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+img{
+    width:10rem;
+    height: auto;
+}
+.body{
+    background-color: white;
+    text-align: center;
+    margin: 2rem;
+    position: relative;
+}   
+p{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.point{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.footer{
+    padding-left: 20rem;
+    line-height: 2rem;
+    padding-right: 20rem;
+}
+.italic{
+    text-align: left;
+    padding-left: 22rem;
+    padding-right: 22rem;
+    padding-top: 1rem;
+}
+.lic{
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+}
+.detail{
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+} 
+@media (max-width:1200px) {
+    .footer{
+        padding-left: 4rem;       
+        padding-right: 4rem;
+    }
+}
+@media (max-width:1200px) {
+    .italic{
+        padding-left: 1rem;
+        padding-right: 0rem;
+    }
+}
+@media (max-width:1200px) {
+     .lic{
+        padding-right: 6.1rem;
+    } 
+}
+@media (max-width:1200px) {
+    .point{
+        font-size: 1.2rem;
+    } 
+}
+@media (max-width:1200px) {
+     h1{
+        font-size: 2.2rem;
+    }
+}
+@media (max-width:2719px) {
+    #div{
+        margin: 1rem;
+    }
+}
+@media (max-width:1200) {
+    .detail{
+        font-size: 0.6rem;
+    }
+    
+}
